@@ -1,0 +1,85 @@
+/* Css reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* body */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(../images/bg1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+/* Login section */
+
+.container {
+    /* border: 12px solid black; */
+    color: white;
+}
+
+.container h1 {
+    font-size: 2.6rem;
+    border-bottom: 5px solid purple;
+    margin-bottom: 50px;
+    /* background: transparent;s */
+    /* color: transparent; */
+}
+
+.box {
+    /* border: 4px solid purple; */
+    width: 100%;
+    margin: 34px 0px;
+    border-bottom: 2px solid purple;
+}
+
+.box i {
+    padding: 0px 12px;
+}
+
+.box input {
+    width: 84%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 10px;
+    background: none;
+}
+
+.box input:hover {
+    padding: 7px 10px;
+}
+
+.box input:active::placeholder {
+    font-size: 25px;
+}
+
+.btn {
+    cursor: pointer;
+    outline: none;
+    width: 35%;
+    margin: 12px 0px;
+    padding: 10px 21px;
+    border-radius: 10px;
+    border: 2px solid purple;
+    background: none;
+    color: white;
+    font-size: 25px;
+}
+
+.btn:hover {
+    background-color: rgb(59, 83, 122);
+    padding: 12px 23px;
+}
+
+.btn:active {
+    background-color: rgb(71, 99, 148);
+}
